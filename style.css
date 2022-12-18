@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  gap: 34%;
+  padding: 0 0 0 4rem;
+
+}
+nav {
+  margin-top: 1.4rem;
+}
+nav > a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 2rem;
+  color: black;
+  font-weight: 600;
+}
+nav > :nth-last-child(1) {
+  color: white;
+  background-color: #283891;
+  padding: 0.8rem 1.5rem;
+}
+.introduction {
+  background-color: #283891;
+  color: white;
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  height: 80vh;
+}
+.introduction > * {
+  padding: 1rem 3.5rem;
+}
+.introduction > :nth-child(2) {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.introduction > :nth-child(3) {
+  color: #283891;
+  text-decoration: none;
+  background-color: white;
+  padding: 1rem 2.4rem;
+  font-size: 1.3rem;
+}
+.introduction > :nth-child(3):hover {
+  color: white;
+  background-color: #283891;
+  border: 2px solid white;
+}
+.formation {
+  padding: 4rem;
+}
+
+.formation > :nth-child(1) {
+  color: #283891;
+  margin: 1rem;
+}
+.formation > :nth-child(2) {
+  margin: 1rem;
+}
+.formation > :nth-child(3){
+  margin: 0.5rem 1rem;
+}
+.formation>:nth-child(5){
+  margin-left: 2.3rem;
+}
+
+.don-bosco-picture{
+ background-image: url("./assets//donbosco.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: 80vh;
+ 
+}
+.extension{
+  padding: 5rem;
+}
+.extension>:nth-child(1){
+color: #283891;
+padding: 1rem 0;
+}
+.extension>:nth-child(2){
+padding-bottom: 1rem;
+}
+.extension>:nth-child(4){
+  padding-left: 1.5rem;
+}
+.don-bosco-eleve{
+  background-image: url("./assets/Rectangle\ 7.png");
+   background-size: cover;
+   background-repeat: no-repeat; 
+   height: 80vh;
+  
+ }
+footer{
+  text-align: center;
+  padding: 2rem;
+}
+footer>*{
+  padding: 2rem;
+}
+footer>:nth-child(1){
+  font-size: 1.5rem;
+}
+.social-media{
+  display: flex;
+  gap: 5%;
+margin-left: 36%;
+margin-right: auto;
+align-items: center;
+}

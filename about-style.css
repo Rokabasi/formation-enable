@@ -1,0 +1,56 @@
+.presentation {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("./assets//Rectangle.png");  /* Chrome 10-25, Safari 5.1-6 */
+
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.presentation > * {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+.presentation > :nth-child(1) {
+  font-size: 3rem;
+}
+.presentation:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+#formation {
+  background-color: #f3eded;
+}
+.contact {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f3eded;
+}
+.contact > * {
+  padding: 1rem;
+}
+.contact > :nth-child(1) {
+  color: #283891;
+  font-size: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+form > * {
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+}
+form > :nth-last-child(1) {
+  background-color: #283891;
+  color: white;
+  border: none;
+}
